@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background-color: #06377B;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.20));
+}
+
+.carousel {
+    background-color: #06377B;
+    height: auto;
+}
+
+.carousel h3 {
+    color: white;
+}
+
+.carousel p {
+    color: #ABABAB;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure a {
+    color: #171717 !important;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+footer p {
+    font-weight: 200;
+    color: #B7B7B7;
+}

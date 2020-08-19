@@ -47,3 +47,11 @@ footer p {
     font-weight: 200;
     color: #B7B7B7;
 }
+
+.btn-tag {
+    align-self: center;
+    color: white;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 0px 7px 0px 7px !important;
+}
